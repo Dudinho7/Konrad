@@ -1,0 +1,57 @@
+body {
+	background-color: #888888;
+}
+#naglowek {
+	background:url("zdjecia/ostrshop.png") no-repeat;
+	width: 500px;
+	height: 171px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#zdjecie {
+	width: 800px;
+	height: 450px;
+	background: url("zdjecia/zam.jpg") no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+}
+#zdjecie2 {
+	width: 800px;
+	height: 450px;
+	background: url("zdjecia/ot.jpg") no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+}
+#przekierowanie {
+	width: 400px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	color: #888888;
+	text-align: center;
+    border: 2px solid #888888;
+	overflow: hidden;
+	margin-top: 20px;
+	font-family: Impact;
+}
+h1 {
+	margin-top: 0px;
+}
+
+#przekierowanie:hover {
+	width: 400px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #888888;
+	border: 2px solid black;
+	color: black;
+	text-align: center;
+	transition: background-color 1.5s;
+}
+a {
+	text-decoration: none;
+}

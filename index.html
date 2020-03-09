@@ -1,0 +1,47 @@
+<!doctype html> <html>
+<head>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slider.css">
+	<title> O.S.T.R </title>
+</head>
+<body>
+    <div id="naglowek">
+	</div>
+	    <div class="kontener">
+	
+	<div class="mySlides Fade">
+	  
+	    <img src="zdjecia/zam.jpg" style="width:100%">
+	   
+	</div>
+	<div class="mySlides Fade">
+	
+	    <img src="zdjecia/ot.jpg" style="width:100%">
+	   
+	</div>
+	
+	</div>
+	<br>
+	<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000);  // Change image every 2 seconds
+}
+</script>
+	<a href="strona/glowna.html">
+	<div id="przekierowanie">
+	    <h1> Przejdź na stronę główną -></h1>
+	</div>
+	</a>
+</body>
+</html>

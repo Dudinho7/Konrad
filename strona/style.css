@@ -1,0 +1,198 @@
+body {
+	background-position: center;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: #555555;
+}
+#logo {
+	background: url("zdjecia/ostrsh.png") no-repeat;
+	width: 146px;
+	height: 50px;
+	margin-left: 10px;
+	float: left;
+	position: relative;
+
+}
+#menu {
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+#kup {
+	width: 300px;
+	height: 100px;
+	color: black;
+	border: 5px solid black;
+	background-color: white;
+	font-family: Impact;
+	text-align: center;
+	text-decoration: none;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+#kup:hover {
+	background-color: black;
+	color: white;
+	filter: contrast(70%)
+}
+.kafelka {
+	height: 40px;
+	width: 150px;
+	background-color: white;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	font-family: Impact;
+	
+}
+.kafelka:hover {
+	background-color: #333333;
+	color: black;
+}
+#kreska {
+	width: 100%;
+	height: 10px;
+	background-color: #FFFFFF;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+	position: absolute;
+}
+#zdjecie {
+	width: 1280px;
+	background: url("zdjecia/ostr.jpg") no-repeat;
+	height: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    
+}
+#dysk {
+	width: 1280px;
+	height: 1400px;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+.naglowek {
+	text-align: center;
+	color: white;
+	font-family: Impact;
+	font-size: 50px;
+}
+.napis {
+	text-align: left;
+	color: white;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+#zyciorys {
+	width: 1280px;
+	height: 800px;
+	background-color: black;
+    margin-left: auto;
+	margin-right: auto;
+}
+#stopka {
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #555555;
+	left: 0;
+	right: 0;
+	position: absolute;
+	text-align: bottom;
+}
+#kres {
+	width: 100%;
+	height: 10px;
+	background-color: #FFFFFF;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+	position: absolute;
+}
+#ostr1 {
+	background: url("zdjecia/ig.png");
+}
+#ostr {
+	background: url("zdjecia/fb.jpg");
+}
+#ostr, #ostr1 {
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	position: relative;
+}
+/* DYSKOGRAFIA */
+.okladka {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+.plyta {
+	width: 220px;
+	height: 220px;
+	background-color: #333333;
+	margin-left: 30px;
+	margin-top: 20px;
+	float: left;
+	position: relative;
+	display: flex;
+}
+.plyta .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+.plyta:hover span.text {
+  opacity: 1;
+}
+ 
+.plyta:hover .overlay {
+  opacity: 0.3;
+}
+.plyta span.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  color: white;
+}
+.text {
+	height: 60px;
+	width: 220px;
+	bottom: 0;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #222222;
+	text-align: center;
+	color: white;
+	font-family: Impact;
+	font-size: 23px;
+	transition: 0.5s;
+}
